@@ -200,6 +200,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@neztore/auto-config-test@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@neztore/auto-config-test@workspace:."
+  dependencies:
+    auto: "npm:^11.2.1"
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -550,14 +558,6 @@ __metadata:
   checksum: 10c0/3f3a5ad6660be010bd5b979fac180f435bd9615e81db2b1cdac081eb3f639461f6c3927ced956e377a5c91cc789e3de3a3e900e296c1423971043c8fd8be0b73
   languageName: node
   linkType: hard
-
-"auto-config-test@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "auto-config-test@workspace:."
-  dependencies:
-    auto: "npm:^11.2.1"
-  languageName: unknown
-  linkType: soft
 
 "auto@npm:^11.2.1":
   version: 11.2.1
