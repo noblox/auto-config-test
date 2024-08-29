@@ -200,14 +200,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neztore/auto-config-test@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@neztore/auto-config-test@workspace:."
-  dependencies:
-    auto: "npm:^11.2.1"
-  languageName: unknown
-  linkType: soft
-
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -1384,6 +1376,14 @@ __metadata:
   checksum: 10c0/125049632bc3ca2252e994ca07f27d795c0e6decc4077f0f4163348d30d7cb95409ceff6184284c95396aa5ea8ff5010673063db7674058b966b4f0228d4981c
   languageName: node
   linkType: hard
+
+"noblox-auto-config-test@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "noblox-auto-config-test@workspace:."
+  dependencies:
+    auto: "npm:^11.2.1"
+  languageName: unknown
+  linkType: soft
 
 "node-fetch@npm:2.6.7":
   version: 2.6.7
