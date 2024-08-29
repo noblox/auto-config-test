@@ -1,4 +1,16 @@
 {
-  "name": "auto-config-test",
-  "packageManager": "yarn@4.2.2"
+  "name": "@neztore/auto-config-test",
+  "version": "1.0.0",
+  "packageManager": "yarn@4.2.2",
+  "devDependencies": {
+    "auto": "^11.2.1"
+  },
+  "repository": "noblox/auto-config-test",
+  "author": "noblox-auto <auto@nezto.re>",
+  "auto": {
+    "plugins": [
+      "npm"
+    ],
+    "onlyPublishWithReleaseLabel": true
+  }
 }
