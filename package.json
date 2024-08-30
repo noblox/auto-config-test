@@ -3,13 +3,15 @@
   "version": "1.0.1",
   "packageManager": "yarn@4.2.2",
   "devDependencies": {
+    "@auto-it/protected-branch": "^11.2.1",
     "auto": "^11.2.1"
   },
   "repository": "noblox/auto-config-test",
   "author": "noblox-auto <auto@nezto.re>",
   "auto": {
     "plugins": [
-      "npm"
+      "npm",
+      "protected-branch"
     ],
     "onlyPublishWithReleaseLabel": true
   }

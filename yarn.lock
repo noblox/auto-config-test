@@ -97,6 +97,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@auto-it/protected-branch@npm:^11.2.1":
+  version: 11.2.1
+  resolution: "@auto-it/protected-branch@npm:11.2.1"
+  dependencies:
+    "@auto-it/core": "npm:11.2.1"
+    "@octokit/rest": "npm:^18.12.0"
+    fp-ts: "npm:^2.5.3"
+    io-ts: "npm:^2.1.2"
+    tslib: "npm:1.10.0"
+  checksum: 10c0/bd1065a1287e76e9539cd144bc5ba3a75b1fb0d99e96a982ac5105c4c0dd7afc98435d1dbfe37addd081a7738746fc8232ffe46df4ba777473256f41bd042a80
+  languageName: node
+  linkType: hard
+
 "@auto-it/released@npm:11.2.1":
   version: 11.2.1
   resolution: "@auto-it/released@npm:11.2.1"
@@ -1381,6 +1394,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "noblox-auto-config-test@workspace:."
   dependencies:
+    "@auto-it/protected-branch": "npm:^11.2.1"
     auto: "npm:^11.2.1"
   languageName: unknown
   linkType: soft
