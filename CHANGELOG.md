@@ -1,3 +1,16 @@
+# v1.0.2 (Fri Aug 30 2024)
+
+#### 🐛 Bug Fix
+
+- I forgot to add the PR labels lol [#6](https://github.com/noblox/auto-config-test/pull/6) ([@Neztore](https://github.com/Neztore))
+- Try with branch protection [#5](https://github.com/noblox/auto-config-test/pull/5) ([@Neztore](https://github.com/Neztore))
+
+#### Authors: 1
+
+- Josh ([@Neztore](https://github.com/Neztore))
+
+---
+
 # v1.0.1 (Thu Aug 29 2024)
 
 #### 🐛 Bug Fix
