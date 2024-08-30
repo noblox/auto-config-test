@@ -30,7 +30,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           PROTECTED_BRANCH_REVIEWER_TOKEN: ${{ secrets.PROTECTED_BRANCH_REVIEWER_TOKEN }}
+          NODE_ENV: dev
         run: |
           corepack enable
-          yarn install --frozen-lockfile
+          yarn install
           npx auto shipit
