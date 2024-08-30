@@ -33,5 +33,6 @@ jobs:
           NODE_ENV: dev
         run: |
           corepack enable
+          yarn add @auto-it/protected-branch --dev
           yarn install --immutable
           npx auto shipit
