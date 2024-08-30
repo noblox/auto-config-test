@@ -32,5 +32,5 @@ jobs:
           PROTECTED_BRANCH_REVIEWER_TOKEN: ${{ secrets.PROTECTED_BRANCH_REVIEWER_TOKEN }}
         run: |
           corepack enable
-          yarn install --frozen-lockfile
+          yarn install --immutable --production=false
           npx auto shipit
