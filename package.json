@@ -1,6 +1,6 @@
 {
   "name": "noblox-auto-config-test",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "packageManager": "yarn@4.2.2",
   "devDependencies": {
     "@auto-it/protected-branch": "^11.2.1",
