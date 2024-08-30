@@ -33,5 +33,5 @@ jobs:
           NODE_ENV: dev
         run: |
           corepack enable
-          yarn install --immutable
+          yarn install
           npx auto shipit

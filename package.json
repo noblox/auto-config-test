@@ -11,7 +11,7 @@
   "auto": {
     "plugins": [
       "npm",
-      "@auto-it/protected-branch"
+      "protected-branch"
     ],
     "onlyPublishWithReleaseLabel": true
   }
